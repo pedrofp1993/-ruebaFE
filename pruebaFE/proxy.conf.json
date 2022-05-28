@@ -1,0 +1,7 @@
+{
+    "/api/*":{
+        "target": "https://apis-prueba.pruebasgt.com",
+        "secure": false,
+        "loglevel": "debug"
+    }
+}

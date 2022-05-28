@@ -1,0 +1,15 @@
+<div class="container margin-top" >
+    <div class="row">
+      <div (click)="verLibro(item)" class="col-4 col-sm-4 col-md-4 col-lg-4 padding" *ngFor="let item of items; let i = index">
+        <img class="img-fluid center-image " src="{{item.image}}">
+        <p class="center-text">{{item.name}}</p>
+        <div class="row justify-content ">
+            <p class="padding">Precio</p>
+            <p class="center-text padding">{{item.price}}</p>
+        </div>
+        <div class="center-text">
+            <button type="button" class="btn btn-primary" (click)="addToCart(item)">Añadir al Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>

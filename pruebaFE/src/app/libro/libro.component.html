@@ -1,0 +1,30 @@
+<div class="row m-5">
+    <div class="col">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Nombre</th>
+                    <th>SKU</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr >
+                    <td>
+                        <img [src]="libro.image" class="img-thumb">
+                    </td>
+                    <td>{{ libro.name }}</td>
+                    <td>{{ libro.sku }}</td>
+                    <td>
+                        {{ libro.price }}
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+</div>
